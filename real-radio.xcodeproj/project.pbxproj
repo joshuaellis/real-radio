@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032AB83A2A1A48B700F1D10B /* real_radioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032AB8392A1A48B700F1D10B /* real_radioApp.swift */; };
+		032AB83C2A1A48B700F1D10B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032AB83B2A1A48B700F1D10B /* ContentView.swift */; };
+		032AB83E2A1A48B800F1D10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032AB83D2A1A48B800F1D10B /* Assets.xcassets */; };
+		032AB8412A1A48B800F1D10B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032AB8402A1A48B800F1D10B /* Preview Assets.xcassets */; };
+		032AB84B2A1A48B800F1D10B /* real_radioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032AB84A2A1A48B800F1D10B /* real_radioTests.swift */; };
+		032AB8552A1A48B800F1D10B /* real_radioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032AB8542A1A48B800F1D10B /* real_radioUITests.swift */; };
+		032AB8572A1A48B800F1D10B /* real_radioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032AB8562A1A48B800F1D10B /* real_radioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032AB8472A1A48B800F1D10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032AB82E2A1A48B700F1D10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032AB8352A1A48B700F1D10B;
+			remoteInfo = "real-radio";
+		};
+		032AB8512A1A48B800F1D10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032AB82E2A1A48B700F1D10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032AB8352A1A48B700F1D10B;
+			remoteInfo = "real-radio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032AB8362A1A48B700F1D10B /* real-radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "real-radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032AB8392A1A48B700F1D10B /* real_radioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_radioApp.swift; sourceTree = "<group>"; };
+		032AB83B2A1A48B700F1D10B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		032AB83D2A1A48B800F1D10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		032AB8402A1A48B800F1D10B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		032AB8462A1A48B800F1D10B /* real-radioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-radioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032AB84A2A1A48B800F1D10B /* real_radioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_radioTests.swift; sourceTree = "<group>"; };
+		032AB8502A1A48B800F1D10B /* real-radioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-radioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032AB8542A1A48B800F1D10B /* real_radioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_radioUITests.swift; sourceTree = "<group>"; };
+		032AB8562A1A48B800F1D10B /* real_radioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_radioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032AB8332A1A48B700F1D10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AB8432A1A48B800F1D10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AB84D2A1A48B800F1D10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032AB82D2A1A48B700F1D10B = {
+			isa = PBXGroup;
+			children = (
+				032AB8382A1A48B700F1D10B /* real-radio */,
+				032AB8492A1A48B800F1D10B /* real-radioTests */,
+				032AB8532A1A48B800F1D10B /* real-radioUITests */,
+				032AB8372A1A48B700F1D10B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032AB8372A1A48B700F1D10B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032AB8362A1A48B700F1D10B /* real-radio.app */,
+				032AB8462A1A48B800F1D10B /* real-radioTests.xctest */,
+				032AB8502A1A48B800F1D10B /* real-radioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032AB8382A1A48B700F1D10B /* real-radio */ = {
+			isa = PBXGroup;
+			children = (
+				032AB8392A1A48B700F1D10B /* real_radioApp.swift */,
+				032AB83B2A1A48B700F1D10B /* ContentView.swift */,
+				032AB83D2A1A48B800F1D10B /* Assets.xcassets */,
+				032AB83F2A1A48B800F1D10B /* Preview Content */,
+			);
+			path = "real-radio";
+			sourceTree = "<group>";
+		};
+		032AB83F2A1A48B800F1D10B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				032AB8402A1A48B800F1D10B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		032AB8492A1A48B800F1D10B /* real-radioTests */ = {
+			isa = PBXGroup;
+			children = (
+				032AB84A2A1A48B800F1D10B /* real_radioTests.swift */,
+			);
+			path = "real-radioTests";
+			sourceTree = "<group>";
+		};
+		032AB8532A1A48B800F1D10B /* real-radioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				032AB8542A1A48B800F1D10B /* real_radioUITests.swift */,
+				032AB8562A1A48B800F1D10B /* real_radioUITestsLaunchTests.swift */,
+			);
+			path = "real-radioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032AB8352A1A48B700F1D10B /* real-radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032AB85A2A1A48B800F1D10B /* Build configuration list for PBXNativeTarget "real-radio" */;
+			buildPhases = (
+				032AB8322A1A48B700F1D10B /* Sources */,
+				032AB8332A1A48B700F1D10B /* Frameworks */,
+				032AB8342A1A48B700F1D10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "real-radio";
+			productName = "real-radio";
+			productReference = 032AB8362A1A48B700F1D10B /* real-radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		032AB8452A1A48B800F1D10B /* real-radioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032AB85D2A1A48B800F1D10B /* Build configuration list for PBXNativeTarget "real-radioTests" */;
+			buildPhases = (
+				032AB8422A1A48B800F1D10B /* Sources */,
+				032AB8432A1A48B800F1D10B /* Frameworks */,
+				032AB8442A1A48B800F1D10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032AB8482A1A48B800F1D10B /* PBXTargetDependency */,
+			);
+			name = "real-radioTests";
+			productName = "real-radioTests";
+			productReference = 032AB8462A1A48B800F1D10B /* real-radioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		032AB84F2A1A48B800F1D10B /* real-radioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032AB8602A1A48B800F1D10B /* Build configuration list for PBXNativeTarget "real-radioUITests" */;
+			buildPhases = (
+				032AB84C2A1A48B800F1D10B /* Sources */,
+				032AB84D2A1A48B800F1D10B /* Frameworks */,
+				032AB84E2A1A48B800F1D10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032AB8522A1A48B800F1D10B /* PBXTargetDependency */,
+			);
+			name = "real-radioUITests";
+			productName = "real-radioUITests";
+			productReference = 032AB8502A1A48B800F1D10B /* real-radioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032AB82E2A1A48B700F1D10B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					032AB8352A1A48B700F1D10B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					032AB8452A1A48B800F1D10B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 032AB8352A1A48B700F1D10B;
+					};
+					032AB84F2A1A48B800F1D10B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 032AB8352A1A48B700F1D10B;
+					};
+				};
+			};
+			buildConfigurationList = 032AB8312A1A48B700F1D10B /* Build configuration list for PBXProject "real-radio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032AB82D2A1A48B700F1D10B;
+			productRefGroup = 032AB8372A1A48B700F1D10B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032AB8352A1A48B700F1D10B /* real-radio */,
+				032AB8452A1A48B800F1D10B /* real-radioTests */,
+				032AB84F2A1A48B800F1D10B /* real-radioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032AB8342A1A48B700F1D10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AB8412A1A48B800F1D10B /* Preview Assets.xcassets in Resources */,
+				032AB83E2A1A48B800F1D10B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AB8442A1A48B800F1D10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AB84E2A1A48B800F1D10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032AB8322A1A48B700F1D10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AB83C2A1A48B700F1D10B /* ContentView.swift in Sources */,
+				032AB83A2A1A48B700F1D10B /* real_radioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AB8422A1A48B800F1D10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AB84B2A1A48B800F1D10B /* real_radioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AB84C2A1A48B800F1D10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AB8572A1A48B800F1D10B /* real_radioUITestsLaunchTests.swift in Sources */,
+				032AB8552A1A48B800F1D10B /* real_radioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		032AB8482A1A48B800F1D10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032AB8352A1A48B700F1D10B /* real-radio */;
+			targetProxy = 032AB8472A1A48B800F1D10B /* PBXContainerItemProxy */;
+		};
+		032AB8522A1A48B800F1D10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032AB8352A1A48B700F1D10B /* real-radio */;
+			targetProxy = 032AB8512A1A48B800F1D10B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032AB8582A1A48B800F1D10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		032AB8592A1A48B800F1D10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		032AB85B2A1A48B800F1D10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"real-radio/Preview Content\"";
+				DEVELOPMENT_TEAM = L72UFB6272;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jumbojosh.real-radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		032AB85C2A1A48B800F1D10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"real-radio/Preview Content\"";
+				DEVELOPMENT_TEAM = L72UFB6272;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jumbojosh.real-radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		032AB85E2A1A48B800F1D10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L72UFB6272;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jumbojosh.real-radioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/real-radio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/real-radio";
+			};
+			name = Debug;
+		};
+		032AB85F2A1A48B800F1D10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L72UFB6272;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jumbojosh.real-radioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/real-radio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/real-radio";
+			};
+			name = Release;
+		};
+		032AB8612A1A48B800F1D10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L72UFB6272;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jumbojosh.real-radioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "real-radio";
+			};
+			name = Debug;
+		};
+		032AB8622A1A48B800F1D10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L72UFB6272;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jumbojosh.real-radioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "real-radio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032AB8312A1A48B700F1D10B /* Build configuration list for PBXProject "real-radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AB8582A1A48B800F1D10B /* Debug */,
+				032AB8592A1A48B800F1D10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032AB85A2A1A48B800F1D10B /* Build configuration list for PBXNativeTarget "real-radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AB85B2A1A48B800F1D10B /* Debug */,
+				032AB85C2A1A48B800F1D10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032AB85D2A1A48B800F1D10B /* Build configuration list for PBXNativeTarget "real-radioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AB85E2A1A48B800F1D10B /* Debug */,
+				032AB85F2A1A48B800F1D10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032AB8602A1A48B800F1D10B /* Build configuration list for PBXNativeTarget "real-radioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AB8612A1A48B800F1D10B /* Debug */,
+				032AB8622A1A48B800F1D10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032AB82E2A1A48B700F1D10B /* Project object */;
+}
