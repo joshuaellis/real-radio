@@ -14,6 +14,7 @@
 		032AB84B2A1A48B800F1D10B /* real_radioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032AB84A2A1A48B800F1D10B /* real_radioTests.swift */; };
 		032AB8552A1A48B800F1D10B /* real_radioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032AB8542A1A48B800F1D10B /* real_radioUITests.swift */; };
 		032AB8572A1A48B800F1D10B /* real_radioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032AB8562A1A48B800F1D10B /* real_radioUITestsLaunchTests.swift */; };
+		032AB8642A1A6CB200F1D10B /* SpeakerGrillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032AB8632A1A6CB200F1D10B /* SpeakerGrillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		032AB8502A1A48B800F1D10B /* real-radioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-radioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		032AB8542A1A48B800F1D10B /* real_radioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_radioUITests.swift; sourceTree = "<group>"; };
 		032AB8562A1A48B800F1D10B /* real_radioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_radioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		032AB8632A1A6CB200F1D10B /* SpeakerGrillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerGrillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				032AB83B2A1A48B700F1D10B /* ContentView.swift */,
 				032AB83D2A1A48B800F1D10B /* Assets.xcassets */,
 				032AB83F2A1A48B800F1D10B /* Preview Content */,
+				032AB8632A1A6CB200F1D10B /* SpeakerGrillView.swift */,
 			);
 			path = "real-radio";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				032AB83C2A1A48B700F1D10B /* ContentView.swift in Sources */,
 				032AB83A2A1A48B700F1D10B /* real_radioApp.swift in Sources */,
+				032AB8642A1A6CB200F1D10B /* SpeakerGrillView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +427,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +455,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

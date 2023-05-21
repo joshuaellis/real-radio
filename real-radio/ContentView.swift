@@ -9,13 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack(alignment: Alignment.center) {
+            Rectangle().fill(Color(hue: 212 / 360, saturation: 0.80, brightness: 0.80)).ignoresSafeArea()
+            
+            SpeakerGrillView().padding()
         }
-        .padding()
     }
 }
 
